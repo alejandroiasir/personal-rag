@@ -65,6 +65,45 @@ Guía didáctica del proyecto en Word: [docs/guia-didactica/guia-rag-personal.do
 
 MIT. Ver [LICENSE](LICENSE).
 
+## Arquitectura
+
+```mermaid
+flowchart LR
+    CLI["CLI: rag indexar, preguntar, evaluar, servir"]
+    WEB["Web FastAPI en 127.0.0.1:8000"]
+
+    subgraph Indexacion
+        ARCH["Archivos PDF, DOCX, TXT, MD, HTML"] --> CONV["Conversores a texto"]
+        CONV --> TROZO["Troceado: 180 palabras, solape 30"]
+        TROZO --> EMB_DOC["Embeddings bge-m3 en Ollama"]
+        EMB_DOC --> WRITER["DocumentWriter"]
+    end
+
+    subgraph Consulta
+        PREG["Pregunta"] --> EMB_Q["Embedding de la pregunta"]
+        EMB_Q --> RET["Top 5 fragmentos"]
+        RET --> PROMPT["PromptBuilder"]
+        PROMPT --> LLM["Generador qwen2.5:7b en Ollama"]
+        LLM --> RESP["Respuesta con citas"]
+    end
+
+    QDR[("Qdrant local en data/qdrant")]
+    SUBIDOS[("Copias en data/subidos")]
+    EVAL["Corpus dorado en corpus/dorado"]
+    INFORME[("data/evaluacion.json")]
+
+    CLI --> ARCH
+    CLI --> PREG
+    CLI --> EVAL
+    WEB --> ARCH
+    WEB --> PREG
+    WEB --> SUBIDOS
+    WRITER --> QDR
+    RET --> QDR
+    EVAL --> PREG
+    EVAL --> INFORME
+```
+
 ## Estructura
 
 ```text
