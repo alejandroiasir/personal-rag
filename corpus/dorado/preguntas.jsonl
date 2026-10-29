@@ -1,0 +1,30 @@
+{"id": "q01", "pregunta": "¿En cuánto tiempo hay que notificar un incidente de seguridad al CISO?", "respuesta_clave": ["24 horas"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q02", "pregunta": "¿Cuál es la longitud mínima de una contraseña?", "respuesta_clave": ["12 caracteres"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q03", "pregunta": "¿Cada cuántos días deben cambiarse las contraseñas?", "respuesta_clave": ["90 dias"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q04", "pregunta": "¿Cuántas contraseñas anteriores no se pueden reutilizar?", "respuesta_clave": ["5 contrasenas"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q05", "pregunta": "¿Cuánto tiempo se conservan las copias de seguridad?", "respuesta_clave": ["30 dias"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q06", "pregunta": "¿A qué hora se realiza la copia de seguridad diaria?", "respuesta_clave": ["02:00"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q07", "pregunta": "¿Después de cuántos minutos inactivos se cierra una sesión remota?", "respuesta_clave": ["15 minutos"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q08", "pregunta": "¿Qué tipo de autenticación exige el acceso remoto?", "respuesta_clave": ["dos factores"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q09", "pregunta": "¿Cuánto tiempo se conserva el registro de un incidente de seguridad?", "respuesta_clave": ["3 anos"], "documento": "politica_seguridad.md", "respondible": true}
+{"id": "q10", "pregunta": "¿Cuál es el plazo para responder una solicitud de acceso a datos personales?", "respuesta_clave": ["15 dias habiles"], "documento": "reglamento_proteccion_datos.txt", "respondible": true}
+{"id": "q11", "pregunta": "¿Cuánto tiempo se conservan los datos de clientes tras su última compra?", "respuesta_clave": ["5 anos"], "documento": "reglamento_proteccion_datos.txt", "respondible": true}
+{"id": "q12", "pregunta": "¿Qué algoritmo de cifrado se usa para los datos personales sensibles?", "respuesta_clave": ["AES-256"], "documento": "reglamento_proteccion_datos.txt", "respondible": true}
+{"id": "q13", "pregunta": "¿En cuántas horas debe notificarse una brecha de datos personales a la Agencia?", "respuesta_clave": ["72 horas"], "documento": "reglamento_proteccion_datos.txt", "respondible": true}
+{"id": "q14", "pregunta": "¿Cuál es el correo de contacto del Oficial de Protección de Datos?", "respuesta_clave": ["dpo@ejemplo-ficticio.com"], "documento": "reglamento_proteccion_datos.txt", "respondible": true}
+{"id": "q15", "pregunta": "¿Qué se requiere para transferir datos personales fuera del Espacio Económico Europeo?", "respuesta_clave": ["clausulas contractuales tipo"], "documento": "reglamento_proteccion_datos.txt", "respondible": true}
+{"id": "q16", "pregunta": "¿Con qué frecuencia se realizan las auditorías internas?", "respuesta_clave": ["una vez al año"], "documento": "procedimiento_auditoria.docx", "respondible": true}
+{"id": "q17", "pregunta": "¿En qué plazo se entrega el informe final de una auditoría?", "respuesta_clave": ["20 dias habiles"], "documento": "procedimiento_auditoria.docx", "respondible": true}
+{"id": "q18", "pregunta": "¿En cuánto tiempo deben corregirse los hallazgos críticos?", "respuesta_clave": ["30 dias"], "documento": "procedimiento_auditoria.docx", "respondible": true}
+{"id": "q19", "pregunta": "¿Cuántos registros se revisan por proceso en el muestreo?", "respuesta_clave": ["25 registros"], "documento": "procedimiento_auditoria.docx", "respondible": true}
+{"id": "q20", "pregunta": "¿Cuántos días por semana puede aplicarse el teletrabajo?", "respuesta_clave": ["3 dias"], "documento": "politica_teletrabajo.pdf", "respondible": true}
+{"id": "q21", "pregunta": "¿Qué equipo es obligatorio para el teletrabajo?", "respuesta_clave": ["portatil corporativo"], "documento": "politica_teletrabajo.pdf", "respondible": true}
+{"id": "q22", "pregunta": "¿Cuánto reembolsa la empresa por internet en teletrabajo?", "respuesta_clave": ["60 euros"], "documento": "politica_teletrabajo.pdf", "respondible": true}
+{"id": "q23", "pregunta": "¿Con cuántos días de antelación debe pedirse el teletrabajo?", "respuesta_clave": ["5 dias"], "documento": "politica_teletrabajo.pdf", "respondible": true}
+{"id": "q24", "pregunta": "¿Quién aprueba la solicitud de teletrabajo?", "respuesta_clave": ["jefe directo"], "documento": "politica_teletrabajo.pdf", "respondible": true}
+{"id": "q25", "pregunta": "¿Cuál es el salario mínimo de un auditor interno?", "respuesta_clave": [], "documento": null, "respondible": false}
+{"id": "q26", "pregunta": "¿Cuántos días de vacaciones corresponden a un empleado?", "respuesta_clave": [], "documento": null, "respondible": false}
+{"id": "q27", "pregunta": "¿Qué marca de cortafuegos utiliza la empresa?", "respuesta_clave": [], "documento": null, "respondible": false}
+{"id": "q28", "pregunta": "¿Cuál es la política de uso de impresoras?", "respuesta_clave": [], "documento": null, "respondible": false}
+{"id": "q29", "pregunta": "¿Cuánto cuesta el seguro de salud corporativo?", "respuesta_clave": [], "documento": null, "respondible": false}
+{"id": "q30", "pregunta": "¿Quién es el director financiero de la empresa?", "respuesta_clave": [], "documento": null, "respondible": false}

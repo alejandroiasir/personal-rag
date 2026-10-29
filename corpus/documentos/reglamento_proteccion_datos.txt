@@ -1,0 +1,21 @@
+REGLAMENTO DE PROTECCIÓN DE DATOS PERSONALES (documento ficticio)
+
+Documento de prueba para el proyecto. Los datos son inventados.
+
+Artículo 1. Responsable de protección de datos
+El Oficial de Protección de Datos supervisa el cumplimiento de este reglamento. Su correo de contacto es dpo@ejemplo-ficticio.com.
+
+Artículo 2. Derechos de acceso
+Las solicitudes de acceso a datos personales deben responderse en un plazo de 15 días hábiles desde su recepción.
+
+Artículo 3. Conservación de datos de clientes
+Los datos de clientes se conservan durante 5 años desde la última compra. Pasado ese plazo, deben eliminarse o anonimizarse.
+
+Artículo 4. Cifrado
+Los datos personales sensibles deben cifrarse en reposo con AES-256.
+
+Artículo 5. Brechas de seguridad
+Toda brecha de datos personales que afecte a los derechos de las personas debe notificarse a la Agencia de Protección de Datos en un plazo máximo de 72 horas desde que se tiene constancia de ella.
+
+Artículo 6. Transferencias internacionales
+Las transferencias de datos personales fuera del Espacio Económico Europeo requieren cláusulas contractuales tipo aprobadas por el Oficial de Protección de Datos.

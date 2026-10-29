@@ -1,0 +1,8 @@
+PROCEDIMIENTO DE AUDITORÍA INTERNA, VERSIÓN ANTIGUA (documento ficticio)
+
+Documento de prueba. Los datos son inventados.
+
+1. Las auditorías internas se realizan cada dos años.
+2. El informe final se entrega en un plazo de 45 días hábiles.
+3. Los hallazgos críticos deben corregirse en un plazo de 90 días.
+4. Se revisan 10 registros por proceso en el muestreo.

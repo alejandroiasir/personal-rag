@@ -1,0 +1,43 @@
+[project]
+name = "rag-normativo"
+version = "0.2.0"
+description = "RAG personal sobre documentos locales con Haystack, Qdrant y Ollama"
+requires-python = ">=3.10"
+dependencies = [
+    "haystack-ai==2.31.0",       # RS-001: Haystack 2.x fijado
+    "ollama-haystack==6.8.0",    # embeddings y generación locales
+    "qdrant-haystack==13.1.0",   # almacén vectorial local
+    "pypdf==6.21.3",             # lectura de PDF
+    "python-docx==1.2.0",        # lectura de DOCX
+    "fastapi==0.162.0",          # página web local
+    "uvicorn==0.54.0",           # servidor local
+    "python-multipart==0.0.32",  # subida de archivos
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.2.0",
+    "ruff==0.17.3",
+    "reportlab==5.1.0",          # solo para generar el PDF de prueba
+    "openpyxl==3.1.5",           # reservado para planillas (Fase 6)
+]
+
+[project.scripts]
+rag = "rag_normativo.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integracion: requiere Ollama corriendo y los modelos descargados",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
